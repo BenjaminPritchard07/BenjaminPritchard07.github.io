@@ -1,4 +1,4 @@
-Here is a simple flow chart:
+# CHOOSE YOUR OWN ADVENTURE
 
 ```mermaid
 graph TD;
