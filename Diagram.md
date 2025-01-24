@@ -10,14 +10,14 @@ graph TD;
     sneak[You sneak past the goblin without it hearing you]
     attack[You run at the goblin but it pulls a sword out of its cloak and stabs you to death]
     dead1[YOU LOSE!]
-    dead1[YOU LOSE!]
+    dead2[YOU LOSE!]
     level2[You now have a pet dog, what do you do?]
     escape[You escape with your dog!]
     blowup[You get caught in a booby trap and explode.]
     dead3[YOU LOSE!]
     win[YOU WIN!!!!]
     treasure[You find the goblins supply of treasure and are now rich!]
-    win2
+    win2[YOU WIN! (but no dog)]
     start-->|green|dog
     dog-->|run away|run
     run-->dead1
@@ -26,6 +26,7 @@ graph TD;
     level2-->|escape|escape
     escape-->win
     level2-->|go to the next room|blowup
+    blowup-->dead3
     start-->|blue|goblin
     goblin-->|sneak past|sneak
     sneak-->treasure
