@@ -34,3 +34,8 @@ graph TD;
     goblin-->|attack it|attack
     attack-->dead2
 ```
+
+### Description:
+This flowchart provides a simple choose your own adventure story.  
+You can either win with a pet dog or treasure.   
+All the other paths lose.
