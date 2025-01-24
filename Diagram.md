@@ -17,7 +17,7 @@ graph TD;
     dead3[YOU LOSE!]
     win[YOU WIN!!!!]
     treasure[You find the goblins supply of treasure and are now rich!]
-    win2[YOU WIN! (but no dog)]
+    win2["YOU WIN! (but no dog)"]
     start-->|green|dog
     dog-->|run away|run
     run-->dead1
