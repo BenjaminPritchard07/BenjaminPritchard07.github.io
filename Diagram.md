@@ -7,8 +7,12 @@ graph TD;
     run[The dog jumps on you and rips you to shreds.]
     pet[The dog happily licks your hand and sits and your side.]
     goblin[You see a goblin with his back towards you, what do you do?]
-    start-->|green|dog;
-    dog-->run
-    dog-->pet
-    start-->|blue|goblin;
+    sneak[You sneak past the goblin without it hearing you]
+    attack[You run at the goblin but it pulls a sword out of its cloak and stabs you to death]
+    start-->|green|dog
+    dog-->|run away|run
+    dog-->|pet him|pet
+    start-->|blue|goblin
+    goblin-->|sneak past|sneak
+    goblin-->|attack it|attack
 ```
