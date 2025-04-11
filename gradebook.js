@@ -1,4 +1,4 @@
-funtion fetchGradeData() {
+function fetchGradeData() {
 	console.log("Fetching grade data...");
 }
 
